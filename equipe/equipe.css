@@ -1,0 +1,151 @@
+/* Estilos gerais */
+body{
+	/*font-family: Arial, sans-serif;*/
+	margin: 0;
+    padding: 0;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+	
+	
+}
+
+/* Estilos de cabeçalho */
+header{
+	background-color: #F0F0F0;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px;
+}
+
+header a{
+	color: #black;
+	text-decoration: none;
+	margin-left: 20px;
+	
+}
+
+header a:visited {
+	color: black;
+	
+}
+
+header li{
+	list-style: none;
+}
+
+/* logo */
+.logo{
+	height: 0px;
+	width: 0px;
+}
+
+/* Estilos do conteudo principal */
+main { 
+	background-color: #F0F0F0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 0px;	
+	width: 80%;
+	
+}
+
+section {
+	background-color: #FCFCFC;
+	border: 0px solid #ddd;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	margin: 20px;
+	padding: 30px;
+	width: 210px;
+	height: 560px;
+	border-radius: 20px;
+	align-items: center;
+	text-align: center;
+	
+	
+}
+
+nav {
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+	color: #57A9E8;
+	font-size: 40px;
+	
+	
+}
+
+.qualificacao {
+	color: #57A9E8;
+}
+
+
+.text-espcificacao {
+	text-align: left;
+}
+
+
+	
+
+
+section h2{
+	margin-top: 0;
+	
+}
+
+/* configuração de imagens*/
+.estrelas {
+		height:20px; width:20px
+}	
+
+/* configuração de fotos de perfil */
+.perfil{
+	
+	height: 210px; 
+	width: 210px;
+	border-radius:20px;
+	justify-content: center;
+    align-items: center;
+	text-align: center;
+}
+
+p {
+	size: 3px;
+	font-family: serif;
+	
+	
+}
+
+font {
+	font-size: 13px;
+	font-family: Luminari, fantasy
+}
+
+table {
+	background-color: #EDEDED; 
+}
+
+/* Estilos de rodapé */
+footer {
+	background-color: #ddd;
+	padding: 10px;
+	text-align: center;
+}
+
+font {
+	font-size: 14px;
+	font-family: fantasy;
+
+}

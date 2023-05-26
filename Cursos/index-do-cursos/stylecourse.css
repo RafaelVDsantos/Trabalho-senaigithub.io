@@ -1,0 +1,72 @@
+/* stylecourse.css */
+
+/* Definir o estilo das sections */
+section {
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #1d3666;
+    height: 470px;
+    width: 240px;
+    flex-wrap: wrap;
+	
+	
+}
+main {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+	margin-top: 10px;
+
+}
+
+.borda-section {
+	border: 0.1px solid #1d3666;
+	border-radius: 3px;
+}
+
+.section-de-text {
+	height: 180px;
+    width: 240px;
+}
+
+.text {
+	font-family: arial;
+	color: white;
+	margin-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+
+
+
+
+/* Definir o estilo dos links/imagens */
+section a {
+  display: block;
+  margin: 0px;
+  width: 200px;
+  height: 200px;
+  border: 0px solid #ccc;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  
+
+}
+
+/* Definir o estilo dos links/imagens ao passar o mouse */
+section a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Definir o estilo das imagens dentro dos links */
+section a img {
+  max-width: 100%;
+  max-height: 100%;
+  /*object-fit: cover;*/
+}
